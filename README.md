@@ -67,7 +67,7 @@ python nucbreak.py --min_frag_size 50 --max_frag_size 1150 my_sam_2 my_genome.fa
 
 To visualize read alignments in genome browsers, use bam_pos option. The bam file with alignments sorted by positions together with indexed files will be generated automatically:
 ```
-python nucbreak.py -bam_opt yes my_genome.fasta my_pe_reads_1.fastq my_pe_reads_1.fastq my_output_dir my_prefix
+python nucbreak.py -bam_pos yes my_genome.fasta my_pe_reads_1.fastq my_pe_reads_1.fastq my_output_dir my_prefix
 ```
 
 <br><br>
